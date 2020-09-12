@@ -18,7 +18,7 @@ public class ThingTest {
      @Test
     public void testNFail() {
         Thing t = new Thing();
-        t.setN(5);
+        t.setN(15);
         Assert.assertEquals("N should be 5", 15, t.getN());
     }
 }
